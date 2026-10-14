@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto | Eliana Piñeros</title>
+    <meta name="description" content="Contacta a Eliana Paola Piñeros Valderrama, desarrolladora de software junior en Tauramena, Casanare.">
+    <meta name="author" content="Eliana Paola Piñeros Valderrama">
+    <meta name="keywords" content="contacto, formulario, desarrolladora junior, Tauramena, Casanare">
+    <meta name="robots" content="index, follow">
+    <link rel="icon" type="image/png" href="img/empresa.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Patrick+Hand&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <a class="logo" href="index.html">
+            <img src="img/empresa.png" alt="Logo">
+            <span>Eliana Piñeros</span>
+        </a>
+        <nav>
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="proyectos.html">Proyectos</a></li>
+                <li><a href="articulos.html">Artículos</a></li>
+                <li><a href="contacto.html" aria-current="page">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <h1>Contacto</h1>
+
+        <section id="datos">
+            <h2>Mis datos</h2>
+            <address>
+                Tauramena, Casanare, Colombia<br>
+                <a href="tel:+573213625953">3213625953</a><br>
+                <a href="mailto:eliana.pineros.2009@gmail.com">eliana.pineros.2009@gmail.com</a>
+            </address>
+        </section>
+
+        <section id="formulario">
+            <h2>Escríbeme</h2>
+
+            <form action="#" method="post">
+                <p>
+                    <label for="nombre">Nombre</label>
+                    <input type="text" id="nombre" name="nombre" required>
+                </p>
+
+                <p>
+                    <label for="correo">Correo electrónico</label>
+                    <input type="email" id="correo" name="correo" required>
+                </p>
+
+                <p>
+                    <label for="asunto">Asunto</label>
+                    <select id="asunto" name="asunto">
+                        <option value="proyecto">Quiero conocerte</option>
+                        <option value="trabajo">Oferta de trabajo</option>
+                        <option value="otro">Otro</option>
+                    </select>
+                </p>
+
+                <p>
+                    <label for="mensaje">Mensaje</label>
+                    <textarea id="mensaje" name="mensaje" rows="6" cols="40" required></textarea>
+                </p>
+
+                <button type="submit">Enviar mensaje</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Eliana Piñeros. Aprendiz ADSO</p>
+    </footer>
+</body>
+
+</html>
